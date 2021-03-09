@@ -36,12 +36,15 @@ h2{
 }
 #author-text{
     font-size: 22px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 .blog-post {
     width: 75%;
     float: left;
-    padding: 
+    position: relative;
 }
 
 .other-post {
@@ -60,3 +63,23 @@ h2{
     margin-bottom: 40px;
     padding-left: 10px;
 }
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.blog-post img {
+    height: 150px;
+    width: auto;
+}
+
+.date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
