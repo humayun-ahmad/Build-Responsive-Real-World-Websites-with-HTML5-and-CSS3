@@ -52,6 +52,7 @@ h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
+    
 }
 
 
@@ -65,7 +66,6 @@ h1 {
 .btn-ghost:visited{
     border: 1px solid #e67e22;
     color: #e67e22;
-/*    background-color: #e67e22;*/
 }
 
 .btn:hover,
@@ -73,6 +73,61 @@ h1 {
     background-color: #cf6d17;
     color: #fff;
 }
+
+.logo {
+    height: 100%;
+    width: 10%;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li {
+    display: inline-block;
+    margin: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active  {
+    border-bottom: 1px solid #e67e22;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
