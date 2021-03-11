@@ -113,11 +113,28 @@ h2:after {
     
 }
 
+/*---------------------------*/
+/*ICONS*/
+/*---------------------------*/
+
 .icon-big {
     font-size: 300%;
     color: #e67e22;
     display: block;
     margin-bottom: 10px;
+}
+
+.icon-small {
+    color: #e67e22;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 120%;
+    
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -3px;
 }
 
 h3 {
@@ -291,9 +308,31 @@ h3 {
     padding-right: 30px;
 }
 
+/*---------------------------*/
+/*Cities*/
+/*---------------------------*/
 
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
 
+.city-feature {
+    margin-bottom: 5px;
+}
 
+.city-feature a:link,
+.city-feature a:visited {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+.city-feature a:hover,
+.city-feature a:active {
+    color: blue;
+    text-decoration: underline;
+}
 
 
 
