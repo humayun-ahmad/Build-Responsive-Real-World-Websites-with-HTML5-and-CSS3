@@ -334,7 +334,47 @@ h3 {
     text-decoration: underline;
 }
 
+/*---------------------------*/
+/*TESTIMONIAL*/
+/*---------------------------*/
 
+.section-testimonials {
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+blockquote {
+    font-style: italic;
+    line-height: 145%;
+    padding: 2%;
+    position: relative;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -3px;
+}
+
+cite {
+    margin: 20px 10px 10px 0px;
+    display: block;
+    font-size: 90%;
+}
+cite img {
+    height: 50%;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: middle;
+}
 
 
 
