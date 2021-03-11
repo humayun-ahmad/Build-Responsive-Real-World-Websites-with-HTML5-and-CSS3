@@ -1,3 +1,8 @@
+/*---------------------------*/
+/*Basic Setup*/
+/*----------------------------*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -13,10 +18,29 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
+/*---------------------------*/
+/*Reusable Component*/
+/*----------------------------*/
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+section {
+    padding: 80px 0px;
+}
+
+.box {
+    padding: 1px;
+}
+
+
+/*---------------------------*/
+/*Header*/
+/*---------------------------*/
+
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
@@ -33,18 +57,70 @@ header {
     transform: translate(-50%,-50%);
 }
 
+h1,h2,
+h3 {
+    font-weight: 300%;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
     font-size: 240%;
-    font-weight: 300%;
-    letter-spacing: 1px;
     word-spacing: 4px;
-    text-transform: capitalize;
-
 }
 
+h2 {
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 180%;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+/*---------------------------*/
+/*Paragraph*/
+/*---------------------------*/
+
+.box p{
+    
+}
+
+.icon-big {
+    font-size: 300%;
+    color: #e67e22;
+    display: block;
+    margin-bottom: 10px;
+}
+
+h3 {
+    padding-bottom: 10px;
+    font-size: 118%;
+}
+
+
+
+/*---------------------------*/
+/*Button*/
+/*---------------------------*/
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -73,6 +149,10 @@ h1 {
     background-color: #cf6d17;
     color: #fff;
 }
+
+/*---------------------------*/
+/*Logo & navbar*/
+/*---------------------------*/
 
 .logo {
     height: 100%;
@@ -107,6 +187,47 @@ h1 {
     
 }
 
+/*---------------------------*/
+/*MEALS*/
+/*---------------------------*/
+
+.section-meals {
+    padding: 0;
+}
+
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0; 
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img {
+    opacity: .7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform .5s,opacity 1s;
+    
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
 
 
 
