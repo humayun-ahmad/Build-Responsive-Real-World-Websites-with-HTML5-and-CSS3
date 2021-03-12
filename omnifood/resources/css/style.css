@@ -148,7 +148,8 @@ h3 {
 /*Button*/
 /*---------------------------*/
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit]{
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -159,7 +160,8 @@ h3 {
 
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     color: #fff;
 }
@@ -426,8 +428,32 @@ cite img {
 }
 
 
+/*---------------------------*/
+/*CONTACT FORM*/
+/*---------------------------*/
 
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
 
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #bcbcbc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px;
+}
 
 
 
