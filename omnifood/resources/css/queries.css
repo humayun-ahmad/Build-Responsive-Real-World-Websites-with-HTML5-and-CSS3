@@ -1,11 +1,43 @@
 /* Big tablet to 1200px (width smaller that the 1140px row) */
 @media only screen and (max-width: 1200px) {
-    
+    ..hero-text-box {
+        width: 100%;
+    }
 }
 
 /*Small small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-    
+    body {
+        font-size: 18px;
+    }
+    header {padding: }
+    .hero-text-box { padding: 0px 212px;}
+    .main-nav {
+        font-size: 15px;
+    }
+    .main-nav li {
+        margin: 20px 20px auto 15px;
+    }
+    .box:first-child {
+        padding-left: 10px;
+    }
+    .box:last-child {
+        padding-right: 10px;
+    }
+    .btn-app img {
+    height: 45px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 20px;
+    }
+    blockquote:first-child {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .city-feature {
+    margin-bottom: 5px;
+    font-size: 90%;
+    }
 }
 
 /*Small phones to small tablets: from 481 to 767px */
