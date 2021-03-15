@@ -7,9 +7,17 @@
 
 /*Small small tablet to big tablet: from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
+    /*---------------------------*/
+    /*Boday Part*/
+    /*---------------------------*/
     body {
         font-size: 18px;
     }
+    
+    /*---------------------------*/
+    /*Boday Part*/
+    /*---------------------------*/
+    
     header {padding: }
     .hero-text-box { padding: 0px 212px;}
     .main-nav {
@@ -18,6 +26,10 @@
     .main-nav li {
         margin: 20px 20px auto 15px;
     }
+    
+    /*---------------------------*/
+    /*Section-Feature*/
+    /*---------------------------*/
     .long-copy {
         width: 80%;
         margin-left: 10%;
