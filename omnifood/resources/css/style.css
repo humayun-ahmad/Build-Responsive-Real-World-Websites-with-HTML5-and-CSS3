@@ -9,7 +9,8 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #000;
     font-family: 'Lato','arial', sans-serif;
