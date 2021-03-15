@@ -40,20 +40,46 @@
     .box:last-child {
         padding-right: 10px;
     }
-    .btn-app img {
-    height: 45px;
-    width: auto;
-    padding-left: 10px;
-    padding-right: 20px;
+    
+    /*---------------------------*/
+    /*How it Works*/
+    /*---------------------------*/
+    .app-screen {
+        width: 50%;
     }
+    
+    .btn-app img {
+        height: 45px;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    
+    /*---------------------------*/
+    /*TESTIMONIAL*/
+    /*---------------------------*/
+    
     blockquote:first-child {
         padding-left: 10px;
         padding-right: 10px;
     }
+    
+    /*---------------------------*/
+    /*Cities*/
+    /*---------------------------*/
     .city-feature {
-    margin-bottom: 5px;
-    font-size: 90%;
+        margin-bottom: 5px;
+        font-size: 90%;
     }
+    /*---------------------------*/
+    /*Price*/
+    /*---------------------------*/
+    .plan-box {
+        width: 100%;
+        margin: 0;
+    }
+    
+    
 }
 
 /*Small phones to small tablets: from 481 to 767px */
