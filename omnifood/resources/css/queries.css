@@ -18,6 +18,10 @@
     .main-nav li {
         margin: 20px 20px auto 15px;
     }
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
     .box:first-child {
         padding-left: 10px;
     }
