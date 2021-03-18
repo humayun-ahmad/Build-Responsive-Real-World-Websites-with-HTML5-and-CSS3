@@ -232,9 +232,9 @@ input[type=submit] {
 
 /* sticky */
 
-.main-nav { margin-top: 0px; }
+.sticky .main-nav { margin-top: 0px; }
 
-.main-nav li { margin: 40px; }
+.sticky .main-nav li { margin: 40px; }
 
 
 .sticky {
