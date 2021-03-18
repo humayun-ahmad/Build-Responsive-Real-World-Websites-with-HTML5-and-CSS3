@@ -244,6 +244,7 @@ input[type=submit] {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0px 2px 2px #dbd5d5;
+    z-index: 9999;
 }
 
 .sticky .main-nav li a:link,
