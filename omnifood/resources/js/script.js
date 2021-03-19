@@ -43,6 +43,13 @@ $(document).ready(function() {
         });
     });
     
+    
+    /* Animation On scrolling */
+    $('.js--wp-1').waypoint(function(direction){
+        $('.js--wp-1').addClass('animate__fadeIn');
+    });
+    
+    
 });
 
 
