@@ -110,9 +110,15 @@
         width: 100%;
     }
     
+/*
     .main-nav {
         display: none;
     }
+*/
+    .mobile-nav-icon {
+/*        display: inline-block;*/
+    }
+        
     
     .long-copy {
         width: 100%;
