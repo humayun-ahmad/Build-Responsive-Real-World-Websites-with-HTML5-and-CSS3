@@ -8,11 +8,9 @@ For border color: #e67e22
 
 
 
-/* 
-Button color : #e67e22 Orange(carrot);
-
-
-*/
+/*******************************************/ 
+/****Button color : #e67e22 Orange(carrot)***/
+/******************************************/
 
 *{
     margin: 0;
@@ -39,6 +37,11 @@ html{
     margin: 0 auto;
 }
 
+
+/*******************************************/ 
+/**** Header section ***/
+/******************************************/
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
     background-size: cover;
@@ -55,14 +58,29 @@ header {
     transform: translate(-50%,-50%);
 }
 
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
 h1{
-    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
     color: #fff;
     font-size: 240%;
-    letter-spacing: 1.5px;
     word-spacing: 4px;
-    font-weight: 300;
-    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    letter-spacing: 1px;
 }
 
 .btn:link,
@@ -143,3 +161,82 @@ logo style
 }
 
 /* Header style end*/
+
+/*******************************************/ 
+/**** Feature section ***/
+/******************************************/
+
+section{
+    
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.feature-para{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+
+.icon-big {
+    color: #e67e22;
+    font-size: 350%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.box{
+    padding: 5px;
+}
+
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+    margin-top:  7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************/ 
+/****  ***/
+/******************************************/
+
+
+
+
+
+
+/*******************************************/ 
+/****  ***/
+/******************************************/
+
+
+
+
+/*******************************************/ 
+/****  ***/
+/******************************************/
+
+
+
+
+
