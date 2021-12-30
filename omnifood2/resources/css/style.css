@@ -1,4 +1,13 @@
-/* Basic HTML style activity */
+/* Basic HTML style activity 
+
+For border color: #e67e22
+
+
+*/
+
+
+
+
 /* 
 Button color : #e67e22 Orange(carrot);
 
@@ -102,13 +111,35 @@ logo style
     height: 100px;
     width: auto;
     float: left;
+    margin-top: 20px;
 }
 
 .main-nav{
     float: right;
+    list-style: none;
+    margin-top: 55px;
 }
 
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
 
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    color: #fff;
+    font-size: 90%;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+}
 
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+}
 
 /* Header style end*/
