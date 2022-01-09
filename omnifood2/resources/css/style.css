@@ -27,6 +27,16 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+
+.clearfix {zoom : 1}
+.clearfix:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* Basic HTML style activity end */ 
 
 
@@ -170,6 +180,8 @@ section{
     
 }
 
+
+/* this portion of line will create underline */
 h2:after {
     display: block;
     height: 2px;
@@ -179,6 +191,8 @@ h2:after {
     margin: 0 auto;
     margin-top: 30px;
 }
+
+/* end the underline */
 
 .feature-para{
     width: 70%;
@@ -259,15 +273,21 @@ h2:after {
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
+    
 }
 
 .steps-box:last-child{
-    margin-top: 45px;
+    margin-top: 70px;
     padding-left: 3%;
 }
 
 .app-screen {
     width: 40%;
+}
+
+.works-step:last-of-type{
+    margin-bottom: 60px;
+    
 }
 
 .works-step div{
@@ -286,7 +306,13 @@ h2:after {
 
 
 .works-step p{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
 }
 
 
