@@ -321,6 +321,47 @@ h2:after {
 /**** section-cities ***/
 /******************************************/
 
+.section-cities{
+    
+}
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+}
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    font-size: 25px;
+    color: #e67e22;
+    
+    /* secrets to align text and icon */
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.box h3{
+    margin: 7px 2px;
+}
+
+.city-feature a:link,
+.city-feature a:visited{
+    text-decoration: none;
+    color: #e67e22;;
+    text-decoration: underline;
+}
+
+.city-feature a:hover,
+.city-feature a:active{
+    text-decoration: none;
+}
+
 
 
 /*******************************************/ 
